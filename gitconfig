@@ -1,0 +1,9 @@
+[user]
+	name = Laurent Vauthrin
+	email = lvauthrin@gmail.com
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore
