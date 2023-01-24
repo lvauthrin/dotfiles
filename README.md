@@ -38,5 +38,3 @@ Remove a file from being managed:
 See files that are currently managed:
 
     lsrc
-
->>>>>>> 7f7adf8 (Initial commit of dotfiles)
