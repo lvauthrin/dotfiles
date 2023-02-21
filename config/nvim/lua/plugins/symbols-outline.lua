@@ -1,0 +1,1 @@
+/Users/lvauthrin/.dotfiles/dotfiles/config/nvim/lua/plugins/symbols-outline.lua

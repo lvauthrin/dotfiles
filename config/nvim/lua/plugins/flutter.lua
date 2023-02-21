@@ -1,22 +1,16 @@
 return {
-  -- Dart syntax highlighting
-  {
-    "dart-lang/dart-vim-plugin",
-    config = true,
-  },
   -- Flutter commands like hot-reload-on-save
   {
-    "thosakwe/vim-flutter",
+    "akinsho/flutter-tools.nvim",
     config = true,
+    ft = "dart",
   },
-  -- lsc for vim
   {
-    "natebosch/vim-lsc",
-    config = true,
-  },
-  -- lsc for dart
-  {
-    "natebosch/vim-lsc-dart",
-    config = true,
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        dartls = {},
+      },
+    },
   },
 }

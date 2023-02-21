@@ -1,0 +1,17 @@
+# Java base matches
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  - trigger: ":fori"
+    replace: "for (int {{f.var}} = 0; {{f.var}} < {{f.term}}; {{f.var}}++) {$|$}"
+    vars:
+      - name: "f"
+        type: form
+        params:
+          layout: "Loop variable: [[var]] and termintion condition: [[term]]"
+  - trigger: ":syso"
+    replace: "System.out.println($|$);"
+  - trigger: ":syss"
+    replace: "System.out.println(String.format(\"%s$|$\",));"
+

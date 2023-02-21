@@ -7,3 +7,4 @@
 	defaultBranch = main
 [core]
 	excludesFile = ~/.gitignore
+	ignorecase = false

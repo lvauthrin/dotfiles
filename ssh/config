@@ -1,0 +1,4 @@
+Host kajuhouse.com
+   HostName 104.131.218.135
+   User root
+   IdentityFile ~/.ssh/id_ed25519.pub

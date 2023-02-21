@@ -107,3 +107,17 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Setup android command line tools path
+export ANDROID_SDK_ROOT="/opt/homebrew/share/android-commandlinetools"
+path+=('/opt/homebrew/share/android-commandlinetools/emulator/')
+
+# Setup Ruby Chruby
+source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.3 # run 'chruby' to see actual version
+
+# Set default editor
+export EDITOR='nvim'
+
+# Setup coursier in path
+path+=('/Users/lvauthrin/Library/Application Support/Coursier/bin')
