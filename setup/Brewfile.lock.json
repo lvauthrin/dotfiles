@@ -1726,6 +1726,12 @@
         "options": {
           "full_name": "zoom"
         }
+      },
+      "obs": {
+        "version": "29.0.2",
+        "options": {
+          "full_name": "obs"
+        }
       }
     },
     "mas": {

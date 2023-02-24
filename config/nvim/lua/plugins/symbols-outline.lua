@@ -1,1 +1,8 @@
-/Users/lvauthrin/.dotfiles/dotfiles/config/nvim/lua/plugins/symbols-outline.lua
+return {
+  {
+    "simrat39/symbols-outline.nvim",
+    cmd = "SymbolsOutline",
+    keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
+    config = true,
+  },
+}
