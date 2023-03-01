@@ -4,8 +4,7 @@
 
 local opt = vim.opt
 
-opt.foldlevel = 2
-opt.foldlevelstart = 3
+opt.foldlevelstart = 5
 opt.foldcolumn = "3"
 opt.foldclose = ""
 opt.foldmethod = "expr"

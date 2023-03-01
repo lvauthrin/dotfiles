@@ -102,7 +102,7 @@ sudo xcodebuild -license
 ```
 
 ### Espanso Configurations
-```bash
+```bash`
 espanso install all-emojis
 ```
 
