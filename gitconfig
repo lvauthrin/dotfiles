@@ -8,3 +8,5 @@
 [core]
 	excludesFile = ~/.gitignore
 	ignorecase = false
+[push]
+	autoSetupRemote = true
