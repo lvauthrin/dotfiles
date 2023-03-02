@@ -61,3 +61,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 # Show battery percentage
 defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+
+
+# Remap caps-lock to escape
+hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x700000029}]}'
+

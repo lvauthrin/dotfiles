@@ -7,10 +7,8 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        dartls = {},
-      },
-    },
+    opts = function(_, opts)
+      opts.servers.dartls = {}
+    end,
   },
 }
