@@ -1,3 +1,13 @@
+# Mac
 .DS_Store
+
+# Bazel
+/bazel-*
+
+# Python
 *.pyc
+
+# Java
+*.class
+
 
