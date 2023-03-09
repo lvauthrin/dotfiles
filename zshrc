@@ -121,3 +121,5 @@ export EDITOR='nvim'
 
 # Setup coursier in path
 path+=('/Users/lvauthrin/Library/Application Support/Coursier/bin')
+
+export OPENAI_API_KEY="$(< ~/.secrets/openai_api.key )"
