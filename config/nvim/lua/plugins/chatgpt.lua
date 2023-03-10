@@ -2,9 +2,9 @@ return {
   -- Note: this is a plugin I'm developing to learn more about nvim
   -- {
   --   "lvauthrin/chatgpt.nvim",
-  --   dir = os.getenv("HOME") .. "/code/chat-gpt.nvim/curl-module",
+  --   dir = os.getenv("HOME") .. "/code/chat-gpt.nvim",
   --   dev = true,
-  --   lazy = false,
+  --   cmd = "ChatGPT",
   --   --enabled = false,
   --   config = function(_, _)
   --     require("chatgpt").setup({ api_key = os.getenv("OPENAI_API_KEY") })
