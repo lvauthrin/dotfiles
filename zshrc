@@ -71,7 +71,7 @@ ZSH_CUSTOM=~/.oh-my-zsh.local
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(bazel brew git history-substring-search z)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(bazel brew git history-substring-search z)
+plugins=(bazel brew git history-substring-search mov-to-gif z)
 
 source $ZSH/oh-my-zsh.sh
 
