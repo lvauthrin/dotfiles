@@ -11,3 +11,8 @@
 *.class
 target/
 
+# Scala
+.bsp/
+.scala-build/
+.metals/
+
