@@ -1,21 +1,26 @@
 return {
   {
-    "almo7aya/openingh.nvim",
-    config = true,
+    "lvauthrin/openingh.nvim",
+    -- TODO: Switch back to original repo after PR merge
+    --"almo7aya/openingh.nvim",
+    --dir = "~/code/openingh.nvim",
+    --dev = true,
+    --config = true,
+    cmd = { "OpenInGHFile", "OpenInGHRepo " },
     keys = {
       {
         "ghf",
-        function()
-          require("openingh").openFile()
-        end,
+        ":OpenInGHFile <cr>",
+        mode = { "n", "v" },
         desc = "Open current file in Github",
+        silent = true,
       },
       {
         "ghr",
-        function()
-          require("openingh").openRepo()
-        end,
+        ":OpenInGHRepo <cr>",
+        mode = "n",
         desc = "Open current repo in Github",
+        silent = true,
       },
     },
   },

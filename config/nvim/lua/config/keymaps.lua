@@ -3,4 +3,9 @@
 -- Add any additional keymaps here
 
 -- Open urls/files using ddefult system application
-vim.keymap.set("n", "gx", [[:silent execute '!open ' . shellescape(expand("<cfile>"), 1)<CR>]], opts)
+vim.api.nvim_set_keymap(
+  "n",
+  "gx",
+  [[:silent execute '!open ' . shellescape(expand("<cfile>"), 1)<CR>]],
+  { silent = true }
+)
