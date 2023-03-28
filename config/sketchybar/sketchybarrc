@@ -1,4 +1,7 @@
-# TODO: Disabled until this is nice and has all functionality needed
+# TODO: Disabled until this is themed properly and has all the right item/plugins
+# inspiration: https://github.com/FelixKratz/SketchyBar/discussions/47
+# Example 1: https://github.com/rish106/dotfiles
+# Example 2: https://github.com/khaneliman/dotfiles/blob/main/README.md
 
 source "$HOME/.config/sketchybar/colors.sh" # Loads all defined colors
 source "$HOME/.config/sketchybar/icons.sh" # Loads all defined icons
