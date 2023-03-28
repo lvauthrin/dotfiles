@@ -1,11 +1,6 @@
 return {
   {
-    "lvauthrin/openingh.nvim",
-    -- TODO: Switch back to original repo after PR merge
-    --"almo7aya/openingh.nvim",
-    --dir = "~/code/openingh.nvim",
-    --dev = true,
-    --config = true,
+    "almo7aya/openingh.nvim",
     cmd = { "OpenInGHFile", "OpenInGHRepo " },
     keys = {
       {
